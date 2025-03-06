@@ -8,82 +8,25 @@
 <body>
     <h1>Fromulario</h1>
     <form action="" method="post">
-        <fieldset>
-            <legend>Qual profissão vc quer?</legend>
-            <label for="iprof">Profissão<input type="text" id="iprof" list="profissão"></label>
-            <datalist id="profissão">
-                <option value="desenvolvedor">Desenvolvedor</option>
-                <option value="analista_sistemas">Analista de Sistemas</option>
-                <option value="cientista_dados">Cientista de Dados</option>
-                <option value="engenheiro_software">Engenheiro de Software</option>
-                <option value="suporte_ti">Suporte de TI</option> 
-            </datalist>
-        </fieldset>
-        <fieldset>
-            <legend>Onde vc nasceu</legend>
-            <label for="istate">Selecioe</label>
-            <select name="state" id="istate">
-                <optgroup label="Região Norte">
-                    <option value="AC">Acre</option>
-                    <option value="AM">Amazonas</option>
-                    <option value="AP">Amapá</option>
-                    <option value="PA">Pará</option>
-                    <option value="RO">Rondônia</option>
-                    <option value="RR">Roraima</option>
-                    <option value="TO">Tocantins</option>
-                </optgroup>
-                <optgroup label="Região Nordeste">
-                    <option value="AL">Alagoas</option>
-                    <option value="BA">Bahia</option>
-                    <option value="CE">Ceará</option>
-                    <option value="MA">Maranhão</option>
-                    <option value="PB">Paraíba</option>
-                    <option value="PE">Pernambuco</option>
-                    <option value="PI">Piauí</option>
-                    <option value="RN">Rio Grande do Norte</option>
-                    <option value="SE">Sergipe</option>
-                </optgroup>
-                <optgroup label="Região Centro-Oeste">
-                    <option value="DF">Distrito Federal</option>
-                    <option value="GO">Goiás</option>
-                    <option value="MT">Mato Grosso</option>
-                    <option value="MS">Mato Grosso do Sul</option>
-                </optgroup>
-                <optgroup label="Região Sudeste">
-                    <option value="ES">Espírito Santo</option>
-                    <option value="MG">Minas Gerais</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="SP">São Paulo</option>
-                </optgroup>
-                <optgroup label="Região Sul">
-                    <option value="PR">Paraná</option>
-                    <option value="RS">Rio Grande do Sul</option>
-                    <option value="SC">Santa Catarina</option>
-                </optgroup>
-            </select>
-        </fieldset>
-        <fieldset>
-            <legend>Sobre Você!</legend>
-            <label for="ifem"><input type="radio" name="sexo" id="ifem">Feminino</label>
-            <label for="imasc"><input type="radio" name="sexo" id="imasc">Masculino</label>
-            
-        </fieldset>
-        <fieldset>
-            <legend>Coloque suas informações</legend>
-            <label for="inome">
-                <p>nome:<input type="text" id="inome" name="nome" required placeholder="Coloque um belo nome!"></p>
+        
+        <p>
+            <label for="n1">1° Numero
+                <input type="number" name="n1" id="n1" required  min="0" max="50">
             </label>
-             <label for="iemail">
-                 <p>email:<input type="email" id="iemail" name="email" required placeholder="Coloque seu e--mail"></p>
-             </label>
-             <label for="ipassword" c>
-                 <p>senha: <input type="password" id="ipassword" name="password" required minlength="8" maxlength="20" placeholder="Sua senha não será divulgada a ninguem"></p>
-             </label>
-             <input type="submit" value="Enviar">
-             <input type="reset" value="limpar">
-        </fieldset>
-        <label for="imsg"><input type="text"></label>
-     
+        </p>
+        <p>
+            <label for="n2">2° Numero
+                <input type="number" name="n2" id="n2" required  min="0" max="50">
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </p>
+        
+            
+        
+
      
     </form> 
 </body>
