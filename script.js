@@ -1,5 +1,5 @@
 //oi
 /*testando tipos de comentarios*/
 alert ("Bem vindo ao teste")
-confirm ("Você deseja co?")
+confirm ("Você deseja c?")
 prompt ("Qual é o seu nome?")
