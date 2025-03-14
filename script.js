@@ -22,7 +22,7 @@ if(confirm("Deseja jogar?")){
         chute = parseInt(prompt("Digite um número de 0 a 10"));
     }
     if(tentativas == 0){
-        alert("Fim  do o número era " + numero);
+        alert("Fim  do jpgp o número era " + numero);
     }
 
 }
