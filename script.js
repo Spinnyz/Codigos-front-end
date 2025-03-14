@@ -6,7 +6,7 @@ alert("Seja bem vindo ao jogo de adivinhação");
 if(confirm("Deseja jogar?")){
     alert("Vamos começar");
     var numero = Math.floor(Math.random() * 10);
-    var tentativas = 3;
+    var tentativas = 10;
     var chute = parseInt(prompt("Digite um número de 0 a 10"));
     while(tentativas > 0){
         if(chute == numero){
