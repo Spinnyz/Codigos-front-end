@@ -5,7 +5,10 @@ prompt("Digite sua idade");
 alert("Seja bem vindo ao jogo de adivinhação");
 if(confirm("Deseja jogar?")){
     alert("Vamos começar");
-    var numero = Math.floor(Math.random() * 10);
+    else{
+        alert("Você é obrigado a jogar");
+    
+}
 
 
 
