@@ -1,4 +1,4 @@
-let n1 = prompt ("To type the first number:"); //first number
-var n2 = prompt ("To type the second number:");// second number
-var sum = Number(n1) + Number(n2);
-alert (`The sum of numbers is ${sum}`); //sum of numbers
+var name = prompt("Whats your name?");
+document.write(`Your name ${name} has ${name.length}`);
+document.write (`Your name in uppercase is ${name.UpperCase()}`);
+document.write(`Your name in lowercase is ${name.LowerCase()}`);
