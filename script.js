@@ -1,2 +1,2 @@
-alerta ("Olá, mundo!");
-var nome = prompt  ("Qual é o seu nome?");
+alert ("Olá, bem vindo(a)");
+//
