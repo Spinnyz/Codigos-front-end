@@ -10,3 +10,12 @@ p{
     font-size: 1.5em;
     font-weight: bolder;
 }
+
+.resultado{
+    text-align: left;
+    padding: 10px;
+}
+.clique{
+    text-align: left;
+    padding: 10px
+}
