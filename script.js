@@ -1,6 +1,4 @@
-var p1 = document.getElementsByTagName('p')[0];
-document.write(p1.innerHTML);
+var name = prompt ("Hello, Whats your name?");
 
-var d = document.getElementsById ('clique')
-
-d.style.background = 'red';
+var welcome = document.querySelector("p.resultado");
+welcome.innerText = ("soi")
