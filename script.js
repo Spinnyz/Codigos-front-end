@@ -6,5 +6,8 @@ var password = prompt("What's your password?");
 var welcome = document.querySelector("p.Bem-vindo");
 welcome.innerText = `Bem vindo ${name}`;
 
+var le = document.querySelector
+
 var age = document.querySelector("p.age")
-age.document.innerText = `Você tem ${idade} anos`;
+age.innerText = `Você tem ${idade} anos`;
+
