@@ -11,7 +11,8 @@ p{
     font-weight: bolder;
 }
 
-.Bem-vindo{
-    
+.Bem-vindo, .name, .age, .email, .Passwords{
+    text-align: center;
     padding: 10px;
+    
 }
