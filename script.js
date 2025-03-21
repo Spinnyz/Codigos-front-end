@@ -1,4 +1,4 @@
-var name = prompt ("Hello, Whats your name?");
+var name = prompt("Hello, What's your name?");
 
 var welcome = document.querySelector("p.resultado");
-welcome.innerText = ("soi")
+welcome.innerText = `Bem vindo ${name}`;
