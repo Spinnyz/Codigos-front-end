@@ -15,6 +15,5 @@ age.innerText = `Você tem ${idade} anos`;
 var emai = document.querySelector("p.email")
 emai.innerText = `Seu email é ${email}`;
 
-var pass = document.querySelector("p.password")
-pass.innerText = `Sua senha é ${password}`;
+var pass=
 
