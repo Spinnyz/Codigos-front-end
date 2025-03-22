@@ -2,9 +2,7 @@ var a = document.querySelector("div#area");
 a.addEventListener("click", clicar);
 a.addEventListener("mouseenter", entrar);
 a.addEventListener("mouseout", sair);
-a.addEventListener("mousemove", mover);
-a.addEventListener("mousedown", apertar);
-a.addEventListener("mouseup", soltar);
+a.addEventListener("mousemove", mover)
 
 
 function clicar (){
@@ -26,20 +24,8 @@ function sair (){
     int.style.background = "blue";
 }
 
-function mover (){
-    var int = document.querySelector("div#area");
+function mover(){
+    var int = document.querySelector ("div#area");
     int.innerHTML = "Moveu!";
-    int.style.background = "yellow";
-}
-
-function apertar (){
-    var int = document.querySelector("div#area");
-    int.innerHTML = "Apertou!";
-    int.style.background = "black";
-}
-
-function soltar (){
-    var int = document.querySelector("div#area");
-    int.innerHTML = "Soltou!";
-    int.style.background = "white";
+    int.style.background = "yellow"
 }
