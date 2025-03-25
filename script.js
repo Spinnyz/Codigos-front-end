@@ -10,10 +10,5 @@ function somar() {
   var n1 = Number(nm1.value);
   var n2 = Number(nm2.value);
   var soma = n1 + n2;
-
-  if (isNaN(n1) || isNaN(n2)) {
-    resultado.innerHTML = "O resultado é: Por favor, insira números válidos.";
-  } else {
-    resultado.innerHTML = `O resultado é: ${soma}`;
-  }
+  resultado.innerHTML = `O resultado é: ${soma}`;
 }
