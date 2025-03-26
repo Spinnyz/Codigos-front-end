@@ -35,3 +35,19 @@ input{
     padding: 10px;
     
 }
+
+.teste{
+    text-align: center;
+    align-content: center;
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+}
