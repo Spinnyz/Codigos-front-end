@@ -1,4 +1,4 @@
 var nome = "Lucas";
 
 addEventListener("click", function(){
-    alert("Olá, " + 
+    alert("Olá, " 
