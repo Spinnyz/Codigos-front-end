@@ -9,7 +9,7 @@ var valor2 = document.querySelector("input#number2");
 var soma = Number(valor1.value) + Number(valor2.value);
 
 function result (){
-    resultado.innerHTML = "Resultado: " + soma;
+    resultado.innerHTML = `O resultado é ${soma}`;
 
 
 } 
