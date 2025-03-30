@@ -1,10 +1,13 @@
 
-//Calculadora simple
+//Calculadora simples
 
+//Puxando as operações
 var bsoma = document.querySelector("input#isoma");
 var bsub = document.querySelector("input#isub");
 var bmult = document.querySelector("input#imult");
 var bdiv = document.querySelector("input#idiv");
+
+//Puxando o resultado
 var resultado = document.querySelector("p.resultado");
 var valor1 = document.querySelector("input#inumber1");
 var valor2 = document.querySelector("input#inumber2");
