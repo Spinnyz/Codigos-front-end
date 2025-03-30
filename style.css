@@ -6,7 +6,7 @@ body{
     text-align: center;
 }
 
-input{
+input.caixa{
     position: relative;
     left: 50%;
     right: 50%;
@@ -21,6 +21,7 @@ input{
 }
 
 .butão{
+    display: inline;
     background-color: rgb(255, 255, 255);
     color: rgb(58, 4, 109);
     padding: 10px;
@@ -51,3 +52,4 @@ input{
     background-color: yellow;
 
 }
+

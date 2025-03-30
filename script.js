@@ -2,15 +2,19 @@ var butão = document.querySelector("input#ibutton");
 
 var resultado = document.querySelector("p.resultado");
 
-var valor1 = document.querySelector("input#number1");
-
-var valor2 = document.querySelector("input#number2");
-
-var soma = Number(valor1.value) + Number(valor2.value);
 
 function result (){
-    resultado.innerHTML = `O resultado é ${soma}`;
+    var valor1 = document.querySelector("input#inumber1");
 
+    var valor2 = document.querySelector("input#inumber2");
 
+    var v1 = Number(valor1.value);
+
+    var v2 = Number(valor2.value);
+
+    var s = v1 + v2;
+
+    resultado.innerHTML = `O resultado da soma entre ${v1} e ${v2} é igual a: ${s}`;
 } 
+
 butão.addEventListener("click", result);
