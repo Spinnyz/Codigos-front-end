@@ -28,3 +28,22 @@ function sub(){
     resultado.innerHTML = `O resultado da subtração entre ${v1} e ${v2} é igual a: ${s}`;
 }
 
+bsub.addEventListener("click", sub);
+
+function mult(){
+    var v1 = Number(valor1.value);
+    var v2 = Number(valor2.value);
+    var s = v1*v2;
+    resultado.innerHTML = `O resultado da multiplicação entre ${v1} e ${v2} é igual a: ${s}`;
+}
+
+bmult.addEventListener("click", mult)
+
+function div(){
+    var v1 = Number(valor1.value);
+    var v2 = Number(valor2.value);
+    var s = v1/v2;
+    resultado.innerHTML = `O resultado da divisão entre ${v1} e ${v2} é igual a: ${s}`;
+}
+
+bdiv.addEventListener("click", div)
