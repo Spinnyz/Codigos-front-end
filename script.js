@@ -50,3 +50,4 @@ bdiv.addEventListener("click", div)
 
 //Calculadora de IMC
 var peso = document.querySelector("input#peso");
+var altura = document.querySelector("input#altura");
