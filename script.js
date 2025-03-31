@@ -48,4 +48,4 @@ function div(){
 
 bdiv.addEventListener("click", div)
 
-/
+
