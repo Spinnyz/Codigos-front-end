@@ -11,4 +11,3 @@ button.addEventListener('click', () => {
   const listBtn = document.createElement('button');
 
   listItem.appendChild(listText);
-  listText.textContent = myItem;
