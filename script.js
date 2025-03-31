@@ -52,3 +52,4 @@ bdiv.addEventListener("click", div)
 var peso = document.querySelector("input#peso");
 var altura = document.querySelector("input#altura");
 var bcalcular = document.querySelector("input#calcular");
+var resultadoimc = document.querySelector("p#resultadoimc");
