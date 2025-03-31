@@ -48,3 +48,4 @@ function div(){
 
 bdiv.addEventListener("click", div)
 
+if (valor1.value > ")
