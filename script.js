@@ -16,6 +16,4 @@ button.addEventListener('click', () => {
   listBtn.textContent = 'Delete';
   list.appendChild(listItem);
 
-  listBtn.addEventListener('click', () => {
-
 
