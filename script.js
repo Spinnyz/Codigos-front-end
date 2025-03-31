@@ -17,6 +17,5 @@ button.addEventListener('click', () => {
   list.appendChild(listItem);
 
   listBtn.addEventListener('click', () => {
-    list.removeChild(listItem);
-  });
+
 
