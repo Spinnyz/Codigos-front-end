@@ -48,4 +48,5 @@ function div(){
 
 bdiv.addEventListener("click", div)
 
-if (valor1.value > ")
+//Calculadora de IMC
+var peso = document.querySelector("input#peso");
