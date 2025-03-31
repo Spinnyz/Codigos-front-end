@@ -11,7 +11,7 @@
 }
 
 input#ikm {
-    
+    background-color: gray;
     padding: 10px;
     border: 1px solid black;
 }
