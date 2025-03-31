@@ -48,4 +48,4 @@ function div(){
 
 bdiv.addEventListener("click", div)
 
-//Calculadora de IM
+//Calculadora 
