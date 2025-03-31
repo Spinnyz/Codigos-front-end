@@ -3,36 +3,33 @@
     padding: 0;
 }
 
-input#ikm{
+.input-group {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    transform: translateX(-50%);
+    gap: 5px; /* Espaçamento entre o input e o botão */
+}
+
+input#ikm {
     padding: 10px;
     margin: 10px;
     border: 1px solid black;
 }
 
-p{
+p {
+    display: inline-block;
+}
+
+h1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-input#enviar{
-    display: flex;
+input#enviar {
     background-color: gray;
-    border: 1px;
+    border: 1px solid black;
     padding: 10px;
-
+    margin: 10px;
+    cursor: pointer;
 }
