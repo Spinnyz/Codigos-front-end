@@ -53,3 +53,5 @@ var peso = document.querySelector("input#peso");
 var altura = document.querySelector("input#altura");
 var bcalcular = document.querySelector("input#calcular");
 var resultadoimc = document.querySelector("p#resultadoimc");
+var resultadoimc2 = document.querySelector("p#resultadoimc2");
+
