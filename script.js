@@ -7,4 +7,4 @@ button.addEventListener('click', () => {
   input.value = '';
 
   const listItem = document.createElement('li');
-  const listText = document.createElement('span');
+  
