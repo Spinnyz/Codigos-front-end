@@ -4,7 +4,8 @@ var button = document.querySelector ("button.button")
 
 function mudarcor (){
     var valor = Math.floor(Math.random()*9)+1
-    alert (valor)
+    alert ("oi")
+    
 }
 
 
