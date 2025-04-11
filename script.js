@@ -1,10 +1,17 @@
-var ikm = document.querySelector("input#ikm");
-var bkm = document.querySelector("input#ienviar");
-var vatual = document.querySelector("#velocidade");
+var fundo = document.querySelector("body")
+var cback = document.querySelector ("h1.cback")
+var button = document.querySelector ("button.button")
 
-function resultado() {
-    var velocidade = Number(ikm.value); 
-    vatual.innerHTML = `Sua velocidade é de ${velocidade} Km/h`; 
+function mudarcor (){
+    var valor = Math()
+    alert(valor)
+
+
 }
 
-bkm.addEventListener("click", resultado);
+
+button.addEventListener("click", mudarcor)
+
+
+
+
