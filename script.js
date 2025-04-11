@@ -4,7 +4,7 @@ var button = document.querySelector("button.botao");
 
 function mudarcor() {
     var valor = Math.floor(Math.random() * 9) + 1;
-    alert (valor)
+   
     if (valor == 1) {
         fundo.style.backgroundColor = "red";
     } else if (valor == 2) {
@@ -18,6 +18,12 @@ function mudarcor() {
         button.style.color = "white"
     } else if (valor == 5){
         fundo.style.backgroundColor ("purple");
+    } else if (valor == 7){
+        fundo.style.backgroundColor ("orange")
+    }else if (valor == 8){
+        fundo.style.backgroundColor
+    }else if (valor == 9){
+        fundo.style.backgroundColor
     }
  
 }
